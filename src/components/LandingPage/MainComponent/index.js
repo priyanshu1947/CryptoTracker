@@ -15,7 +15,7 @@ function MainComponent() {
           className="heading1"
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
-          transition={{ delay: 0.5, duration: 1 }}
+          transition={{ delay: 0, duration: 1 }}
         >
           Track Crypto
         </motion.h1>
@@ -47,8 +47,8 @@ function MainComponent() {
           </a>
           <RWebShare
             data={{
-              text: "CryptoDashboard made by Avi Vashishta using React JS.",
-              url: "https://crypto-dashboard-jan.netlify.app",
+              text: "CryptoDashboard made by Priyanshu kumar using React JS.",
+              // url: "https://crypto-dashboard-jan.netlify.app",
               title: "CryptoTracker.",
             }}
             onClick={() => toast.info("App Shared!")}
